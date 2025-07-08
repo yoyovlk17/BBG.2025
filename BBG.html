@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BBG Vault</title>
   <style>
     body {
@@ -46,7 +47,8 @@
 
   <h2>Private Vault</h2>
   <p>Hi! This vault is for our IG shared account only.<br>
-  Answer all 5 questions correctly to reveal the password of our shared IG account (@theboybawang)</p>
+  Answer all 5 questions correctly to reveal the password of our shared IG account (@theboybawang).
+  And yes, it's not case sensitive.</p>
 
   <form id="quizForm">
     <label>1. Our Alma Mater?</label>
@@ -58,10 +60,10 @@
     <label>3. Where do we always go when we have a gala?</label>
     <input type="text" id="q3" required>
 
-    <label>4. Date of our grad? [Month DD, YYYY]</label>
+    <label>4. Date of our graduation? [Month DD, YYYY]</label>
     <input type="text" id="q4" required>
 
-    <label>5. UPD Hang Out Date? [Month DD, YYYY]</label>
+    <label>5. UP Diliman Hang Out Date? [Month DD, YYYY]</label>
     <input type="text" id="q5" required>
 
     <button type="submit">Unlock Password</button>
@@ -103,7 +105,7 @@
     document.getElementById("result").innerHTML = `
       All correct!<br><br>
       IG password: <strong>thegreatbbg.10</strong><br><br>
-      Keep it secret. Don't share this with outsiders :)😉
+      Keep it secret. Don't share this with outsiders And nope, don't change the password. :)
     `;
   });
 </script>
